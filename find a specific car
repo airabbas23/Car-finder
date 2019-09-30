@@ -1,0 +1,14 @@
+import webbrowser
+
+car_varieties = input(["japanese", "american", "german"])
+print ('what country')
+if car_varieties == "japanese":
+    webbrowser.open("https://www.dallasjdmmotors.com")
+
+if car_varieties == "american":
+    webbrowser.open("http://www.interstateclassiccars.com")
+
+if car_varieties == "german":
+    webbrowser.open("https://germaneuropeanimport.com")
+else:
+    webbrowser.open("https://www.google.com")
